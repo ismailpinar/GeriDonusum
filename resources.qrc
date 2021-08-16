@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>asagi.png</file>
+        <file>yukari.png</file>
+        <file>Info.ico</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MusteriListesi</class>
+ <widget class="QWidget" name="MusteriListesi">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>466</width>
+    <height>900</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="btnMLGuncelle">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>320</y>
+     <width>83</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>GÜNCELLE</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnMLSil">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>230</y>
+     <width>83</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>SİL</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblMusteriListesi">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>161</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Müşteri Listesi</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tblMusteriListesi">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>50</y>
+     <width>321</width>
+     <height>831</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnEkle">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>140</y>
+     <width>83</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>EKLE</string>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="btnClose">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>10</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>X</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblToplam">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>770</y>
+     <width>181</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Toplam Borç (YTL)</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtToplam">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>800</y>
+     <width>113</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
